@@ -1,9 +1,9 @@
+import React from "react";
 import { ImageResponse } from '@vercel/og';
-import { NextRequest } from 'next/server';
 
 export const runtime = 'edge';
 
-export async function GET(req: NextRequest) {
+export async function GET() {
   try {
     return new ImageResponse(
       <div
@@ -24,7 +24,7 @@ export async function GET(req: NextRequest) {
       </div>,
       { width: 1200, height: 630 }
     );
-  } catch (e) {
+  } catch {
     return new ImageResponse(
       <div
         style={{
