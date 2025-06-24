@@ -1,5 +1,6 @@
-Loaded BOT_TOKEN: 77403...i9xRs
+Loaded BOT_TOKEN: 76813...TxC-U
 Redis client connected
+<<<<<<< HEAD
 { user: 7836432986, prompt: 'all goood' }
 [Redis GET] text:6f2ba58ac0581ca3fc6b5f4e93c3ec0c => [MISS]
 [Redis SET] text:6f2ba58ac0581ca3fc6b5f4e93c3ec0c => {"answer":"<b>All goood</b>\n\nIt seems like your message is a bit unclear. Could you please provide more details or specify what information or assistance you need? I'm here to help!"} (ttl: 1800)
@@ -70,11 +71,131 @@ Sending inline results (from cache): [
     "id": "b905c62d-c9eb-4b5b-ae21-66618933cd00",
     "title": "💰 SOL Price: $143.96",
     "description": "💲 $143.96 • 💰 $76.48 • 📈 +7.69%",
+=======
+Received inline query: 
+Received inline query: b
+[Redis GET] inline:7836432986:b => [MISS]
+[Redis KEYS after GET] [
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cache miss for: inline:7836432986:b
+Received inline query: bn
+Received inline query: bnb
+Received inline query: bnb
+[Redis GET] inline:7836432986:bn => [MISS]
+[Redis GET] inline:7836432986:bnb => [MISS]
+[Redis GET] inline:7836432986:bnb => [MISS]
+[Redis KEYS after GET] [
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+[Redis KEYS after GET] [
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+[Redis KEYS after GET] [
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cache miss for: inline:7836432986:bn
+Cache miss for: inline:7836432986:bnb
+Cache miss for: inline:7836432986:bnb
+Received inline query: bnb price
+[Redis GET] inline:7836432986:bnb price => [MISS]
+[Redis KEYS after GET] [
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cache miss for: inline:7836432986:bnb price
+[Redis SET] inline:7836432986:b => [{"type":"article","id":"6262e72d-de24-44ac-bf53-117fa80dce14","title":"🔍 B","description":"Crypto research result","thumb_url":"https://fere.ai/logo.png","thumb_width":200,"thumb_height":200,"input_message_content":{"message_text":"<b>B</b>\n\nIt seems like your query is incomplete or unclear. Could you please provide more details or clarify what you would like to know or discuss?","parse_mode":"HTML"},"reply_markup":{"inline_keyboard":[[{"text":"Run your own ↗️","switch_inline_query":""}],[{"text":"Deep Dive ↗️","url":"https://fereai.xyz"}]]}}] (ttl: 30)
+[Redis KEYS after SET] [
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'inline:7836432986:b',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cached result for: inline:7836432986:b
+Received inline query: bnb price
+[Redis GET] inline:7836432986:bnb price => [MISS]
+[Redis KEYS after GET] [
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'inline:7836432986:b',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cache miss for: inline:7836432986:bnb price
+[Redis SET] inline:7836432986:bnb => [{"type":"article","id":"9fcfda3d-b740-491f-bb4b-0123f9646b60","title":"🔍 Bnb","description":"💲 $638.00 • 💰 $93,077,060,749 • 📈 +3.01%","thumb_url":"https://fere.ai/logo.png","thumb_width":200,"thumb_height":200,"input_message_content":{"message_text":"<b>Bnb</b>\n\n🚦 BNB (Binance Coin) Overview\n\n- **Current Price**: $638.00\n- **Market Cap**: $93,077,060,749\n- **Circulating Supply**: 145,887,575.79 BNB\n- **Total Supply**: 145,887,575.79 BNB\n- **Max Supply**: 200,000,000 BNB\n- **Price Change (24h)**: +3.01%\n- **Price Change (7d)**: -2.78%\n- **Trading Pairs**: \n  - BNB/USDT\n  - BNB/EUR\n  - BNB/USDC\n  - BNB/BTC\n  - BNB/FDUSD\n\n🚦 Description\nBinance Coin (BNB) is the cryptocurrency of the Binance platform, which is a trading platform exclusively for cryptocurrencies. BNB can be used to pay fees on Binance, including trading fees, transaction fees, and listing fees, with discounts available when fees are paid in BNB. The total supply of BNB is capped at 200 million, and Binance has a buyback plan to reduce the supply over time, which can increase the value of the remaining coins.\n\n🚦 Links\n- [Official Website](https://www.binance.com)\n- [Etherscan](https://etherscan.io/address/0xb8c77482e45f1f44de1745f52c74426c631bdd52)\n- [Reddit Community](https://www.reddit.com/r/binance)\n\n🚦 Recent Trading Data\n| Market       | Last Price | Volume       | Trade URL |\n|","parse_mode":"HTML"},"reply_markup":{"inline_keyboard":[[{"text":"Run your own ↗️","switch_inline_query":""}],[{"text":"Deep Dive ↗️","url":"https://fereai.xyz"}]]}}] (ttl: 30)
+[Redis KEYS after SET] [
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'inline:7836432986:bnb',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'inline:7836432986:b',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cached result for: inline:7836432986:bnb
+[Redis SET] inline:7836432986:bnb price => [{"type":"article","id":"1c75d777-938c-41ec-9150-0ccf3d266c2d","title":"💰 BNB Price: $638.00","description":"💲 $638.00 • 💰 $93,077,060,749 • 📈 +3.01%","thumb_url":"https://fere.ai/logo.png","thumb_width":200,"thumb_height":200,"input_message_content":{"message_text":"<b>Bnb price</b>\n\nThe current price of BNB (Binance Coin) is **$638.00**. Here are some additional details:\n\n- **Market Cap**: $93,077,060,749\n- **Circulating Supply**: 145,887,575.79 BNB\n- **Total Supply**: 145,887,575.79 BNB\n- **Max Supply**: 200,000,000 BNB\n- **Price Change (24h)**: +3.01%\n- **Price Change (7d)**: -2.78%\n\nFor more information, you can visit the [Binance website](https://www.binance.com).","parse_mode":"HTML"},"reply_markup":{"inline_keyboard":[[{"text":"Run your own ↗️","switch_inline_query":""}],[{"text":"Deep Dive ↗️","url":"https://fereai.xyz"}]]}}] (ttl: 30)
+[Redis KEYS after SET] [
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'inline:7836432986:bnb',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'inline:7836432986:b',
+  'inline:7836432986:bnb price',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cached result for: inline:7836432986:bnb price
+Received inline query: bnb price
+[Redis GET] inline:7836432986:bnb price => [HIT]
+[Redis KEYS after GET] [
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'inline:7836432986:bnb',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'inline:7836432986:b',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b',
+  'inline:7836432986:bnb price'
+]
+Cache hit for: inline:7836432986:bnb price
+Sending inline results (from cache): [
+  {
+    "type": "article",
+    "id": "1c75d777-938c-41ec-9150-0ccf3d266c2d",
+    "title": "💰 BNB Price: $638.00",
+    "description": "💲 $638.00 • 💰 $93,077,060,749 • 📈 +3.01%",
+>>>>>>> f7036b4 (Add spark-thumb endpoint and universal action keyboard/session memory)
     "thumb_url": "https://fere.ai/logo.png",
     "thumb_width": 200,
     "thumb_height": 200,
     "input_message_content": {
+<<<<<<< HEAD
       "message_text": "<b>Sol price</b>\n\nThe current price of Solana (SOL) is **$143.96**. Here are some additional details:\n\n- **💰 Market Cap:** $76.48 billion\n- **Circulating Supply:** 531,208,118 SOL\n- **Total Supply:** 603,725,230 SOL\n- **Price Change (24h):** +7.69%\n- **Price Change (7d):** -4.86%\n- **Current Sentiment Positive:** 76.84%\n\nFor more information, you can visit the [Solana website](https://solana.com/) or check out their [Reddit community](https://www.reddit.com/r/solana).",
+=======
+      "message_text": "<b>Bnb price</b>\n\nThe current price of BNB (Binance Coin) is **$638.00**. Here are some additional details:\n\n- **Market Cap**: $93,077,060,749\n- **Circulating Supply**: 145,887,575.79 BNB\n- **Total Supply**: 145,887,575.79 BNB\n- **Max Supply**: 200,000,000 BNB\n- **Price Change (24h)**: +3.01%\n- **Price Change (7d)**: -2.78%\n\nFor more information, you can visit the [Binance website](https://www.binance.com).",
+>>>>>>> f7036b4 (Add spark-thumb endpoint and universal action keyboard/session memory)
       "parse_mode": "HTML"
     },
     "reply_markup": {
@@ -95,6 +216,7 @@ Sending inline results (from cache): [
     }
   }
 ]
+<<<<<<< HEAD
 inline_query_total: 25.872s
 {
   user: 7836432986,
@@ -120,3 +242,418 @@ Cached result for: inline:sol
 Cached result for: inline:sol price
 [Redis SET] text:81370093abd4184794e45b9932a23ea3 => {"answer":"<b>Sol price\n\nThe current price of Solana (SOL) is **$143.96**. Here are some additional details:\n\n- **💰 Market Cap:** $76.48 billion\n- **Circulating Supply:** 531,208,118 SOL\n- **Total Supply:** 603,725,230 SOL\n- **Price Change (24h):** +7.69%\n- **Price Change (7d):** -4.86%\n- **Current Sentiment Positive:** 76.84%\n\nFor more information, you can visit the [Solana website](https://solana.com/) or check out their [Reddit community](https://www.reddit.com/r/solana).</b>\n\nThe current price of Solana (SOL) is **$143.96**. Here are some additional details:\n\n- **💰 💰 Market Cap:** $76.48 billion\n- **Circulating Supply:** 531,208,119 SOL\n- **Total Supply:** 603,725,230 SOL\n- **Price Change (24h):** +7.69%\n- **Price Change (7d):** -4.86%\n- **Current Sentiment Positive:** 76.84%\n\nFor more information, you can visit the [Solana website](https://solana.com/) or check out their [Reddit community](https://www.reddit.com/r/solana)."} (ttl: 1800)
 Cached result for text prompt: text:81370093abd4184794e45b9932a23ea3
+=======
+[Redis SET] inline:7836432986:bn => [{"type":"article","id":"0303ac37-1783-401f-bccd-136abff4044c","title":"🔍 Bn","description":"💲 $638.00 • 💰 $93,077,060,749 • 📈 +3.01%","thumb_url":"https://fere.ai/logo.png","thumb_width":200,"thumb_height":200,"input_message_content":{"message_text":"<b>Bn</b>\n\n🚦 BNB (Binance Coin) Overview\n\n- **Current Price**: $638.00\n- **Market Cap**: $93,077,060,749\n- **Circulating Supply**: 145,887,575.79 BNB\n- **Total Supply**: 145,887,575.79 BNB\n- **Max Supply**: 200,000,000 BNB\n- **Price Change (24h)**: +3.01%\n- **Price Change (7d)**: -2.78%\n- **Trading Pairs**: \n  - BNB/USDT\n  - BNB/EUR\n  - BNB/USDC\n  - BNB/BTC\n  - BNB/FDUSD\n\n🚦 Description\nBinance Coin (BNB) is the cryptocurrency of the Binance platform, which is a trading platform exclusively for cryptocurrencies. The name \"Binance\" is a combination of \"binary\" and \"finance.\" BNB can be used to pay fees on Binance, including trading fees, transaction fees, and listing fees, with discounts available when fees are paid in BNB.\n\n🚦 Links\n- [Official Website](https://www.binance.com)\n- [Etherscan](https://etherscan.io/address/0xb8c77482e45f1f44de1745f52c74426c631bdd52)\n- [Reddit Community](https://www.reddit.com/r/binance)\n\n🚦 Recent Trading Data\n| Market        | Last Price | Volume       | Trade URL |\n|","parse_mode":"HTML"},"reply_markup":{"inline_keyboard":[[{"text":"Run your own ↗️","switch_inline_query":""}],[{"text":"Deep Dive ↗️","url":"https://fereai.xyz"}]]}}] (ttl: 30)
+[Redis KEYS after SET] [
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'inline:7836432986:bnb',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'inline:7836432986:bn',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'inline:7836432986:b',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b',
+  'inline:7836432986:bnb price'
+]
+Cached result for: inline:7836432986:bn
+[Redis SET] inline:7836432986:bnb price => [{"type":"article","id":"789e15e7-2cc0-48b6-b36a-b3ecf56297a0","title":"💰 BNB Price: $638.00","description":"💲 $638.00 • 💰 $93,077,060,749 • 📈 +3.01%","thumb_url":"https://fere.ai/logo.png","thumb_width":200,"thumb_height":200,"input_message_content":{"message_text":"<b>Bnb price</b>\n\nThe current price of BNB (Binance Coin) is **$638.00**. Here are some additional details:\n\n- **💰 Market Cap:** $93,077,060,749\n- **Circulating Supply:** 145,887,575.79 BNB\n- **Total Supply:** 145,887,575.79 BNB\n- **Max Supply:** 200,000,000 BNB\n- **Price Change (24h):** +3.01%\n- **Price Change (7d):** -2.78%\n\nFor more information, you can visit the [Binance website](https://www.binance.com).","parse_mode":"HTML"},"reply_markup":{"inline_keyboard":[[{"text":"Run your own ↗️","switch_inline_query":""}],[{"text":"Deep Dive ↗️","url":"https://fereai.xyz"}]]}}] (ttl: 30)
+[Redis KEYS after SET] [
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'inline:7836432986:bnb',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'inline:7836432986:bn',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b',
+  'inline:7836432986:bnb price'
+]
+Cached result for: inline:7836432986:bnb price
+[Redis SET] inline:7836432986:bnb => [{"type":"article","id":"0b544016-63b0-4254-94a1-90bec0391166","title":"🔍 Bnb","description":"💲 $638.00 • 💰 $93,077,060,749 • 📈 +3.01%","thumb_url":"https://fere.ai/logo.png","thumb_width":200,"thumb_height":200,"input_message_content":{"message_text":"<b>Bnb</b>\n\n🚦 BNB (Binance Coin) Overview\n\n- **Current Price**: $638.00\n- **Market Cap**: $93,077,060,749\n- **Circulating Supply**: 145,887,575.79 BNB\n- **Total Supply**: 145,887,575.79 BNB\n- **Max Supply**: 200,000,000 BNB\n- **Price Change (24h)**: +3.01%\n- **Price Change (7d)**: -2.78%\n- **Trading Pairs**: BNB/USDT, BNB/EUR, BNB/USDC, etc.\n\n🚦 Description\nBinance Coin (BNB) is the cryptocurrency of the Binance platform, which is a trading platform exclusively for cryptocurrencies. BNB can be used to pay fees on Binance, including trading fees, transaction fees, and listing fees, with discounts available when fees are paid in BNB. The total supply of BNB is capped at 200 million, and Binance has a buyback plan to reduce the supply over time, which can increase the value of the remaining coins.\n\n🚦 Links\n- [Official Website](https://www.binance.com)\n- [Etherscan](https://etherscan.io/address/0xb8c77482e45f1f44de1745f52c74426c631bdd52)\n- [Reddit Community](https://www.reddit.com/r/binance)\n\n🚦 Recent Trading Data\n| Market       | Pair        | Last Price | Volume        | Trade URL |\n|","parse_mode":"HTML"},"reply_markup":{"inline_keyboard":[[{"text":"Run your own ↗️","switch_inline_query":""}],[{"text":"Deep Dive ↗️","url":"https://fereai.xyz"}]]}}] (ttl: 30)
+[Redis KEYS after SET] [
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'inline:7836432986:bnb',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'inline:7836432986:bn',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b',
+  'inline:7836432986:bnb price'
+]
+Cached result for: inline:7836432986:bnb
+Received inline query: bnb price
+[Redis GET] inline:7836432986:bnb price => [HIT]
+[Redis KEYS after GET] [
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'inline:7836432986:bnb',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'inline:7836432986:bn',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b',
+  'inline:7836432986:bnb price'
+]
+Cache hit for: inline:7836432986:bnb price
+Sending inline results (from cache): [
+  {
+    "type": "article",
+    "id": "789e15e7-2cc0-48b6-b36a-b3ecf56297a0",
+    "title": "💰 BNB Price: $638.00",
+    "description": "💲 $638.00 • 💰 $93,077,060,749 • 📈 +3.01%",
+    "thumb_url": "https://fere.ai/logo.png",
+    "thumb_width": 200,
+    "thumb_height": 200,
+    "input_message_content": {
+      "message_text": "<b>Bnb price</b>\n\nThe current price of BNB (Binance Coin) is **$638.00**. Here are some additional details:\n\n- **💰 Market Cap:** $93,077,060,749\n- **Circulating Supply:** 145,887,575.79 BNB\n- **Total Supply:** 145,887,575.79 BNB\n- **Max Supply:** 200,000,000 BNB\n- **Price Change (24h):** +3.01%\n- **Price Change (7d):** -2.78%\n\nFor more information, you can visit the [Binance website](https://www.binance.com).",
+      "parse_mode": "HTML"
+    },
+    "reply_markup": {
+      "inline_keyboard": [
+        [
+          {
+            "text": "Run your own ↗️",
+            "switch_inline_query": ""
+          }
+        ],
+        [
+          {
+            "text": "Deep Dive ↗️",
+            "url": "https://fereai.xyz"
+          }
+        ]
+      ]
+    }
+  }
+]
+Received inline query: bnb price
+[Redis GET] inline:7836432986:bnb price => [MISS]
+[Redis KEYS after GET] [
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'inline:7836432986:bnb',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cache miss for: inline:7836432986:bnb price
+Received inline query: bnb price
+[Redis GET] inline:7836432986:bnb price => [MISS]
+[Redis KEYS after GET] [
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cache miss for: inline:7836432986:bnb price
+[Redis SET] inline:7836432986:bnb price => [{"type":"article","id":"8e6713bd-0f5f-4b4e-aad3-6c05f06cb9e1","title":"💰 BNB Price: $638.00","description":"💲 $638.00 • 💰 $93,077,060,749 • 📈 +3.01%","thumb_url":"https://fere.ai/logo.png","thumb_width":200,"thumb_height":200,"input_message_content":{"message_text":"<b>Bnb price</b>\n\nThe current price of BNB (Binance Coin) is **$638.00**. Here are some additional details:\n\n- **Market Cap**: $93,077,060,749\n- **Circulating Supply**: 145,887,575.79 BNB\n- **Total Supply**: 145,887,575.79 BNB\n- **Max Supply**: 200,000,000 BNB\n- **Price Change (24h)**: +3.01%\n- **Price Change (7d)**: -2.78%\n\nFor more information, you can visit the [Binance website](https://www.binance.com).","parse_mode":"HTML"},"reply_markup":{"inline_keyboard":[[{"text":"Run your own ↗️","switch_inline_query":""}],[{"text":"Deep Dive ↗️","url":"https://fereai.xyz"}]]}}] (ttl: 30)
+[Redis KEYS after SET] [
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'inline:7836432986:bnb price',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cached result for: inline:7836432986:bnb price
+[Redis SET] inline:7836432986:bnb price => [{"type":"article","id":"ee98e7a4-077b-4107-a12e-be758693ad2e","title":"💰 BNB Price: $638.00","description":"💲 $638.00 • 💰 $93,077,060,749 • 📈 +3.01%","thumb_url":"https://fere.ai/logo.png","thumb_width":200,"thumb_height":200,"input_message_content":{"message_text":"<b>Bnb price</b>\n\nThe current price of BNB (Binance Coin) is **$638.00**. Here are some additional details:\n\n- **Market Cap**: $93,077,060,749\n- **Circulating Supply**: 145,887,575.79 BNB\n- **Total Supply**: 145,887,575.79 BNB\n- **Max Supply**: 200,000,000 BNB\n- **Price Change (24h)**: +3.01%\n- **Price Change (7d)**: -2.78%\n\nFor more information, you can visit the [Binance website](https://www.binance.com) or check the [BNB on Etherscan](https://etherscan.io/address/0xb8c77482e45f1f44de1745f52c74426c631bdd52).\n\nIf you have any more questions or need further assistance, feel free to ask!","parse_mode":"HTML"},"reply_markup":{"inline_keyboard":[[{"text":"Run your own ↗️","switch_inline_query":""}],[{"text":"Deep Dive ↗️","url":"https://fereai.xyz"}]]}}] (ttl: 30)
+[Redis KEYS after SET] [
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'inline:7836432986:bnb price',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cached result for: inline:7836432986:bnb price
+Received inline query: 
+Received inline query: w
+[Redis GET] inline:7836432986:w => [MISS]
+[Redis KEYS after GET] [
+  'text:508b0c68275fdc555a4e06bc2ffc1abb',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:6f2ba58ac0581ca3fc6b5f4e93c3ec0c',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cache miss for: inline:7836432986:w
+Received inline query: wif
+[Redis GET] inline:7836432986:wif => [MISS]
+[Redis KEYS after GET] [
+  'text:508b0c68275fdc555a4e06bc2ffc1abb',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:6f2ba58ac0581ca3fc6b5f4e93c3ec0c',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cache miss for: inline:7836432986:wif
+Received inline query: wif price
+[Redis GET] inline:7836432986:wif price => [MISS]
+[Redis KEYS after GET] [
+  'text:508b0c68275fdc555a4e06bc2ffc1abb',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:6f2ba58ac0581ca3fc6b5f4e93c3ec0c',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cache miss for: inline:7836432986:wif price
+[Redis SET] inline:7836432986:w => [{"type":"article","id":"2e280dc9-69f8-42f1-977f-a2ac5f699d37","title":"🔍 W","description":"Crypto research result","thumb_url":"https://fere.ai/logo.png","thumb_width":200,"thumb_height":200,"input_message_content":{"message_text":"<b>W</b>\n\nIt seems like your query was incomplete or unclear. Could you please provide more details or clarify what you would like to know or discuss? \n\nIf you're looking for specific information about cryptocurrencies, trading, or any other topic, feel free to ask!","parse_mode":"HTML"},"reply_markup":{"inline_keyboard":[[{"text":"Run your own ↗️","switch_inline_query":""}],[{"text":"Deep Dive ↗️","url":"https://fereai.xyz"}]]}}] (ttl: 30)
+[Redis KEYS after SET] [
+  'text:508b0c68275fdc555a4e06bc2ffc1abb',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:6f2ba58ac0581ca3fc6b5f4e93c3ec0c',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'inline:7836432986:w',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cached result for: inline:7836432986:w
+[Redis SET] inline:7836432986:wif => [{"type":"article","id":"e18eba43-d210-4d16-bfe1-88d3d9605c13","title":"🔍 Wif","description":"Crypto research result","thumb_url":"https://fere.ai/logo.png","thumb_width":200,"thumb_height":200,"input_message_content":{"message_text":"<b>Wif</b>\n\nIt seems like you're asking about \"WIF,\" which stands for Wallet Import Format. WIF is a way to encode a private key in a format that is easy to copy and paste. It is commonly used in Bitcoin and other cryptocurrencies to import private keys into wallets.\n\nHere are some key points about WIF:\n\n1. **Format**: WIF keys start with the number '5', 'K', or 'L' for standard keys, and they are Base58Check encoded. This means they include a checksum to help detect errors.\n\n2. **Purpose**: WIF is used to import private keys into cryptocurrency wallets. It allows users to easily transfer their private keys between different wallet software.\n\n3. **Security**: Since WIF contains the private key, it should be kept secure. Anyone with access to the WIF can control the associated cryptocurrency funds.\n\n4. **Conversion**: You can convert a private key to WIF using various tools or libraries, depending on the programming language you are using.\n\nIf you have a specific question or need further information about WIF, please let me know!","parse_mode":"HTML"},"reply_markup":{"inline_keyboard":[[{"text":"Run your own ↗️","switch_inline_query":""}],[{"text":"Deep Dive ↗️","url":"https://fereai.xyz"}]]}}] (ttl: 30)
+[Redis KEYS after SET] [
+  'text:508b0c68275fdc555a4e06bc2ffc1abb',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:6f2ba58ac0581ca3fc6b5f4e93c3ec0c',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'inline:7836432986:w',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'inline:7836432986:wif',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cached result for: inline:7836432986:wif
+Received inline query: wif price
+[Redis GET] inline:7836432986:wif price => [MISS]
+[Redis KEYS after GET] [
+  'text:508b0c68275fdc555a4e06bc2ffc1abb',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:6f2ba58ac0581ca3fc6b5f4e93c3ec0c',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'inline:7836432986:w',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'inline:7836432986:wif',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cache miss for: inline:7836432986:wif price
+Received inline query: wif price
+[Redis GET] inline:7836432986:wif price => [MISS]
+[Redis KEYS after GET] [
+  'text:508b0c68275fdc555a4e06bc2ffc1abb',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:6f2ba58ac0581ca3fc6b5f4e93c3ec0c',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'inline:7836432986:w',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'inline:7836432986:wif',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cache miss for: inline:7836432986:wif price
+[Redis SET] inline:7836432986:wif price => [{"type":"article","id":"0c3d16d6-ed02-4d98-8944-d96b147876c4","title":"💰 WIF Price: $0.8603","description":"💲 $0.8603 • 💰 $859,420,918 • 📈 +24.20%","thumb_url":"https://fere.ai/logo.png","thumb_width":200,"thumb_height":200,"input_message_content":{"message_text":"<b>Wif price</b>\n\nThe current price of Dogwifhat (WIF) is **$0.8603**. Here are some additional details:\n\n- **💰 Market Cap:** $859,420,918\n- **Price Change (24h):** +24.20%\n- **Price Change (7d):** +4.84%\n- **Circulating Supply:** 998,926,392 WIF\n- **Total Supply:** 998,926,392 WIF\n\n🚦 Links\n- [Official Website](https://dogwifcoin.org)\n- [Solana Explorer](https://solscan.io/token/EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm)\n- [Reddit Community](https://www.reddit.com/r/dogwifhat)\n\nIf you need more information or have any other questions, feel free to ask!","parse_mode":"HTML"},"reply_markup":{"inline_keyboard":[[{"text":"Run your own ↗️","switch_inline_query":""}],[{"text":"Deep Dive ↗️","url":"https://fereai.xyz"}]]}}] (ttl: 30)
+[Redis KEYS after SET] [
+  'text:508b0c68275fdc555a4e06bc2ffc1abb',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'inline:7836432986:wif price',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:6f2ba58ac0581ca3fc6b5f4e93c3ec0c',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'inline:7836432986:w',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'inline:7836432986:wif',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cached result for: inline:7836432986:wif price
+Received inline query: wif price
+[Redis GET] inline:7836432986:wif price => [HIT]
+[Redis KEYS after GET] [
+  'text:508b0c68275fdc555a4e06bc2ffc1abb',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'inline:7836432986:wif price',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:6f2ba58ac0581ca3fc6b5f4e93c3ec0c',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'inline:7836432986:w',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'inline:7836432986:wif',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cache hit for: inline:7836432986:wif price
+Sending inline results (from cache): [
+  {
+    "type": "article",
+    "id": "0c3d16d6-ed02-4d98-8944-d96b147876c4",
+    "title": "💰 WIF Price: $0.8603",
+    "description": "💲 $0.8603 • 💰 $859,420,918 • 📈 +24.20%",
+    "thumb_url": "https://fere.ai/logo.png",
+    "thumb_width": 200,
+    "thumb_height": 200,
+    "input_message_content": {
+      "message_text": "<b>Wif price</b>\n\nThe current price of Dogwifhat (WIF) is **$0.8603**. Here are some additional details:\n\n- **💰 Market Cap:** $859,420,918\n- **Price Change (24h):** +24.20%\n- **Price Change (7d):** +4.84%\n- **Circulating Supply:** 998,926,392 WIF\n- **Total Supply:** 998,926,392 WIF\n\n🚦 Links\n- [Official Website](https://dogwifcoin.org)\n- [Solana Explorer](https://solscan.io/token/EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm)\n- [Reddit Community](https://www.reddit.com/r/dogwifhat)\n\nIf you need more information or have any other questions, feel free to ask!",
+      "parse_mode": "HTML"
+    },
+    "reply_markup": {
+      "inline_keyboard": [
+        [
+          {
+            "text": "Run your own ↗️",
+            "switch_inline_query": ""
+          }
+        ],
+        [
+          {
+            "text": "Deep Dive ↗️",
+            "url": "https://fereai.xyz"
+          }
+        ]
+      ]
+    }
+  }
+]
+[Redis SET] inline:7836432986:wif price => [{"type":"article","id":"a30d4373-73ee-47a8-8a13-de81c0eeceb3","title":"💰 WIF Price: $0.8603","description":"💲 $0.8603 • 💰 $859,420,918 • 📈 +24.20%","thumb_url":"https://fere.ai/logo.png","thumb_width":200,"thumb_height":200,"input_message_content":{"message_text":"<b>Wif price</b>\n\nThe current price of Dogwifhat (WIF) is **$0.8603**. Here are some additional details:\n\n- **💰 Market Cap:** $859,420,918\n- **Price Change (24h):** +24.20%\n- **Price Change (7d):** +4.84%\n- **Circulating Supply:** 998,926,392 WIF\n- **Total Supply:** 998,926,392 WIF\n\n🚦 Links\n- [Official Website](https://dogwifcoin.org)\n- [Solana Explorer](https://solscan.io/token/EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm)\n- [Twitter](https://twitter.com/dogwifcoin)\n- [Reddit](https://www.reddit.com/r/dogwifhat)\n\nIf you need more information or have any other questions, feel free to ask!","parse_mode":"HTML"},"reply_markup":{"inline_keyboard":[[{"text":"Run your own ↗️","switch_inline_query":""}],[{"text":"Deep Dive ↗️","url":"https://fereai.xyz"}]]}}] (ttl: 30)
+[Redis KEYS after SET] [
+  'text:508b0c68275fdc555a4e06bc2ffc1abb',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'inline:7836432986:wif price',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:6f2ba58ac0581ca3fc6b5f4e93c3ec0c',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'inline:7836432986:w',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'inline:7836432986:wif',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cached result for: inline:7836432986:wif price
+[Redis SET] inline:7836432986:wif price => [{"type":"article","id":"082898b9-d079-4491-a181-45b6b425d7be","title":"💰 WIF Price: $0.8603","description":"💲 $0.8603 • 💰 $859,420,918 • 📈 +24.20%","thumb_url":"https://fere.ai/logo.png","thumb_width":200,"thumb_height":200,"input_message_content":{"message_text":"<b>Wif price</b>\n\nThe current price of **Dogwifhat (WIF)** is **$0.8603**. Here are some additional details:\n\n- **💰 Market Cap:** $859,420,918\n- **Price Change (24h):** +24.20%\n- **Price Change (7d):** +4.84%\n- **Circulating Supply:** 998,926,392 WIF\n- **Total Supply:** 998,926,392 WIF\n\n🚦 Links\n- [Official Website](https://dogwifcoin.org)\n- [Solana Explorer](https://solscan.io/token/EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm)\n- [Twitter](https://twitter.com/dogwifcoin)\n- [Reddit](https://www.reddit.com/r/dogwifhat)\n\nIf you need more information or have any other questions, feel free to ask!","parse_mode":"HTML"},"reply_markup":{"inline_keyboard":[[{"text":"Run your own ↗️","switch_inline_query":""}],[{"text":"Deep Dive ↗️","url":"https://fereai.xyz"}]]}}] (ttl: 30)
+[Redis KEYS after SET] [
+  'text:508b0c68275fdc555a4e06bc2ffc1abb',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'inline:7836432986:wif price',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:6f2ba58ac0581ca3fc6b5f4e93c3ec0c',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'inline:7836432986:w',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'inline:7836432986:wif',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cached result for: inline:7836432986:wif price
+{ user: 7836432986, prompt: '@feretest_bot wif price' }
+{
+  user: 7836432986,
+  prompt: 'Wif price\n' +
+    '\n' +
+    'The current price of Dogwifhat (WIF) is **$0.8603**. Here are some additional details:\n' +
+    '\n' +
+    '- **💰 Market Cap:** $859,420,918\n' +
+    '- **Price Change (24h):** +24.20%\n' +
+    '- **Price Change (7d):** +4.84%\n' +
+    '- **Circulating Supply:** 998,926,392 WIF\n' +
+    '- **Total Supply:** 998,926,392 WIF\n' +
+    '\n' +
+    '🚦 Links\n' +
+    '- [Official Website](https://dogwifcoin.org)\n' +
+    '- [Solana Explorer](https://solscan.io/token/EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm)\n' +
+    '- [Reddit Community](https://www.reddit.com/r/dogwifhat)\n' +
+    '\n' +
+    'If you need more information or have any other questions, feel free to ask!'
+}
+Received inline query: wif price
+[Redis GET] inline:7836432986:wif price => [MISS]
+[Redis KEYS after GET] [
+  'text:508b0c68275fdc555a4e06bc2ffc1abb',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:6f2ba58ac0581ca3fc6b5f4e93c3ec0c',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cache miss for: inline:7836432986:wif price
+Received inline query: wif price
+Received inline query: wif price
+Received inline query: wif price
+Received inline query: wif price
+[Redis GET] inline:7836432986:wif price => [MISS]
+[Redis GET] inline:7836432986:wif price => [MISS]
+[Redis GET] inline:7836432986:wif price => [MISS]
+[Redis GET] inline:7836432986:wif price => [MISS]
+[Redis KEYS after GET] [
+  'text:508b0c68275fdc555a4e06bc2ffc1abb',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:6f2ba58ac0581ca3fc6b5f4e93c3ec0c',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+[Redis KEYS after GET] [
+  'text:508b0c68275fdc555a4e06bc2ffc1abb',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:6f2ba58ac0581ca3fc6b5f4e93c3ec0c',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+[Redis KEYS after GET] [
+  'text:508b0c68275fdc555a4e06bc2ffc1abb',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:6f2ba58ac0581ca3fc6b5f4e93c3ec0c',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+[Redis KEYS after GET] [
+  'text:508b0c68275fdc555a4e06bc2ffc1abb',
+  'text:d8faf520e1e27a50e4fa75c17eeb106f',
+  'text:140a8853d3511b222cae1d397d5fa639',
+  'text:6f2ba58ac0581ca3fc6b5f4e93c3ec0c',
+  'text:b89ebe0109a80ea7f72cfd0d87b3d324',
+  'text:b9f62495599019185e47ddcbbff944e5',
+  'text:64f8a91ceaae3398c109978f0bb6ba7b'
+]
+Cache miss for: inline:7836432986:wif price
+Cache miss for: inline:7836432986:wif price
+Cache miss for: inline:7836432986:wif price
+Cache miss for: inline:7836432986:wif price
+/Users/paramminhas/fere-tg-bot-test/node_modules/telegraf/lib/core/network/client.js:315
+            throw new error_1.default(data, { method, payload });
+                  ^
+
+TelegramError: 400: Bad Request: query is too old and response timeout expired or query ID is invalid
+    at Telegram.callApi (/Users/paramminhas/fere-tg-bot-test/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  response: {
+    ok: false,
+    error_code: 400,
+    description: 'Bad Request: query is too old and response timeout expired or query ID is invalid'
+  },
+  on: {
+    method: 'answerInlineQuery',
+    payload: {
+      inline_query_id: '5987107283158278792',
+      results: [
+        {
+          type: 'article',
+          id: 'loading',
+          title: '⏳ Working... (please try again in a few seconds)',
+          description: 'This query takes a few seconds to process. Please repeat your search in 2–3 seconds for the result.',
+          input_message_content: {
+            message_text: 'Your request is being processed. Please repeat your query in a few seconds to see the answer.'
+          }
+        }
+      ],
+      cache_time: 1
+    }
+  }
+}
+
+Node.js v22.16.0
+>>>>>>> f7036b4 (Add spark-thumb endpoint and universal action keyboard/session memory)
