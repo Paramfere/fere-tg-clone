@@ -9,14 +9,10 @@ module.exports = {
   get: async (key) => {
     const value = await client.get(key);
     console.log('[Redis GET]', key, '=>', value ? '[HIT]' : '[MISS]');
-    const allKeys = await client.keys('*');
-    console.log('[Redis KEYS after GET]', allKeys);
     return value;
   },
   set: async (key, value, ttl) => {
     await client.set(key, value, { EX: ttl || 300 }); // default to 5 min
     console.log('[Redis SET]', key, '=>', value, `(ttl: ${ttl || 300})`);
-    const allKeys = await client.keys('*');
-    console.log('[Redis KEYS after SET]', allKeys);
   }
 }; 
